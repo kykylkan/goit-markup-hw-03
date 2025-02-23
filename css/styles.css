@@ -223,9 +223,8 @@ letter-spacing: 0.02em;
 }
 
 .list-item {
-    gap: 8px;
-    text-align: center;
     width: calc((100% - 48px) / 3);
+    text-align: center;
 }
 
 .list-item-title {
@@ -251,13 +250,10 @@ letter-spacing: 0.02em;
     border-top: none;
 }
 
-#portfolio .list-item:first-child {
-    width: calc((100% - 48px) / 3);
-}
 #portfolio .list-item {
+    width: calc((100% - 48px) / 3);
     text-align: left;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 48px) / 3);
 }
 
 #hero {
