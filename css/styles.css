@@ -254,7 +254,7 @@ letter-spacing: 0.02em;
     border-top: none;
 }
 
-.list-item-portfolio {
+#portfolio .list-item {
     width: calc((100% - 48px) / 3);
     text-align: left;
 }
