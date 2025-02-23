@@ -74,12 +74,22 @@ a:hover, a:focus {
 }
 
 
-address {
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu {
+    gap: 40px;
+}
+
+.address {
     font-style: normal;
     display: flex;
 }
 
-address ul {
+.address {
     gap: 40px;
 }
 
@@ -106,16 +116,6 @@ address ul {
 
 .footer .container {
     padding: 100px 0;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    padding: 26px 0;
-}
-
-nav ul {
-    gap: 40px;
 }
 
 .visually-hidden {
@@ -155,7 +155,7 @@ nav ul {
 
 .section {
     width: 100%;
-    padding: 188px 0;
+    padding: 120px 0;
 }
 
 
@@ -201,8 +201,11 @@ nav ul {
     font-size: 16px;
     line-height: 24px;
 letter-spacing: 0.02em;
-
     color: #2e2f42;
+}
+
+.menu-item {
+    padding: 24px 0;
 }
 
 .contact-link {
@@ -263,13 +266,16 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 
+#hero .section {
+    padding: 188px 0;
+}
 
 #hero .btn-primary {
     margin-top: 48px;
 }
 
 #hero h1 {
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 }
 
@@ -294,4 +300,19 @@ letter-spacing: 0.02em;
 
 #studio .list-item {
     text-align: left;
+}
+
+#studio .section {
+}
+
+#studio .section-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
