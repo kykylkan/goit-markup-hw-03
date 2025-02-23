@@ -215,11 +215,10 @@ letter-spacing: 0.02em;
 }
 
 .list {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    display: flex;
-    row-gap: 48px;
 }
 
 .list-item {
@@ -239,11 +238,11 @@ letter-spacing: 0.02em;
 
 .section-title {
     margin-bottom: 72px;
-    /*max-width: 496px;*/
 }
 
 #portfolio .list {
  flex-wrap: wrap;
+ row-gap: 48px;
 }
 
 #portfolio .list-item-wrapper {
@@ -254,6 +253,7 @@ letter-spacing: 0.02em;
 #portfolio .list-item {
     text-align: left;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 48px) / 3);
 }
 
 #hero {
@@ -296,9 +296,6 @@ letter-spacing: 0.02em;
 
 #studio .list-item {
     text-align: left;
-}
-
-#studio .section {
 }
 
 #studio .section-title {
