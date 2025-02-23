@@ -254,7 +254,7 @@ letter-spacing: 0.02em;
     border-top: none;
 }
 
-#portfolio .list-item {
+.list-item-portfolio {
     width: calc((100% - 48px) / 3);
     text-align: left;
 }
@@ -286,9 +286,7 @@ letter-spacing: 0.02em;
 #team .list-item {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
