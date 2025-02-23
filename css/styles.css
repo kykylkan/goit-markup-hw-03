@@ -17,6 +17,11 @@ ul {
     list-style: none;
 }
 
+ul.list {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -218,13 +223,13 @@ letter-spacing: 0.02em;
 .list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 24px;
 }
 
 .list-item {
     width: calc((100% - 48px) / 3);
     text-align: center;
+    box-sizing: border-box;
 }
 
 .list-item-title {
@@ -249,9 +254,7 @@ letter-spacing: 0.02em;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-#portfolio .list-item:first-child {
-    width: calc((100% - 48px) / 3);
-}
+
 #portfolio .list-item {
     width: calc((100% - 48px) / 3);
     text-align: left;
