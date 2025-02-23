@@ -245,8 +245,8 @@ letter-spacing: 0.02em;
     /*max-width: 496px;*/
 }
 
-#portfolio .list{
-
+#portfolio .list {
+ flex-wrap: wrap;
 }
 
 #portfolio .list-item-wrapper {
