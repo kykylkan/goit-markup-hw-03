@@ -249,7 +249,9 @@ letter-spacing: 0.02em;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
+#portfolio .list-item:first-child {
+    width: calc((100% - 48px) / 3);
+}
 #portfolio .list-item {
     width: calc((100% - 48px) / 3);
     text-align: left;
