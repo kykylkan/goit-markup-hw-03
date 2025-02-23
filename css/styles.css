@@ -76,6 +76,7 @@ a:hover, a:focus {
 }
 
 .main-menu {
+    display: flex;
     gap: 40px;
 }
 
@@ -196,6 +197,7 @@ letter-spacing: 0.02em;
 }
 
 .menu-item {
+    padding: 24px 0;
 }
 
 .contact-link {
